@@ -1,0 +1,69 @@
+/*Existen tres modos de usar el make up en el css*/
+*{text-align: center;
+background-color: rgb(45,102, 83);
+text-transform: uppercase;
+}
+h1, p{
+    font-style: italic;
+    color: darkblue;
+    text-transform: lowercase;
+    border-style: solid;
+}
+hr{
+    width: 50%;
+    color: darkslateblue;
+    border-style: dashed;
+}
+q{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:whitesmoke;
+    border: solid black;
+    padding: 20px;
+    margin: 20px;
+    /*line-height: 5em;*/
+    display: inline-block;
+    border-radius: 50%;
+}
+.green{
+    /*color: green;
+    background-color: rgb(255,255,0);*/
+    font-style: normal;
+}
+.red{
+    /*color:red;
+    background-color: rgb(99.99%,99.99%,0%,.4);*/
+    font-style: oblique;
+
+}
+.purple{
+    /*color: purple;
+    background-color:  rgb(255,255,0);
+    opacity: .4;*/
+    font-style: italic;
+}
+.naranja{
+    color: darkorange;
+    text-decoration: line-through;
+}
+.fondo-amarillo{
+    background-color: yellow;
+}
+.tipole1{
+   font-variant: normal;
+   font-weight: 500;
+   font-size: small;
+   line-height: 2em;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: left;
+   text-decoration: underline;
+}
+.tipole2{
+   font-variant: small-caps;
+   font-weight: bolder;
+   font-size: xx-large;
+   font: '1em/2em', Times, serif;
+   text-align: justify;
+   text-decoration: overline;
+   line-height: 2em;
+
+}
